@@ -41,10 +41,10 @@
                               <td>{{ c.projectId }}</td>
                               <td>{{ c.percentComplete }}</td>
                               <td>{{ c.contractStatus }}</td>
-                              <td>{{ c.budget }}</td>
-                              <td>{{ c.payment }}</td>
-                              <td>{{ c.forecast }}</td>
-                              <td>{{ c.committed }}</td>
+                              <td>{{ c.budget | currency }}</td>
+                              <td>{{ c.payment | currency }}</td>
+                              <td>{{ c.forecast | currency }}</td>
+                              <td>{{ c.committed | currency }}</td>
                           </tr>
                       </tbody>
                   </table>

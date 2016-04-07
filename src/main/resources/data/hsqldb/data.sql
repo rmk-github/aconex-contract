@@ -1,0 +1,2 @@
+INSERT INTO CONTRACT (contractCode, contractDescription, startDate, endDate, vendor, projectId, percentComplete, contractStatus, budget, forecast, payment, committed)
+    VALUES ('CODE1', 'Sample Contract by Aconex', NOW(), NULL, 'Sample Vendor', 1, 10.0, 'ACTIVE', 10000.00, 8000.00, 5000.00, 10000.00);

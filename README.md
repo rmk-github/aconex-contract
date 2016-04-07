@@ -1,4 +1,4 @@
-Sample Spring Boot Web Application with JSP
+Aconex Contract Management Sample Application
 ====
 
 Building and running

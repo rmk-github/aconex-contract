@@ -7,7 +7,7 @@ CREATE TABLE CONTRACT (
     startDate DATETIME,
     endDate DATETIME,
     vendor VARCHAR(200),
-    projectId BIGINT,
+    projectId VARCHAR(200),
     percentComplete DOUBLE DEFAULT 0.0,
     contractStatus VARCHAR(15),
     budget NUMERIC(19,2) DEFAULT 0.0,

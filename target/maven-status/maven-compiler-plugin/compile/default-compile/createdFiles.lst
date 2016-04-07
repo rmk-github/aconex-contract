@@ -6,4 +6,3 @@ org/aconex/contract/model/ContractStatus.class
 org/aconex/contract/repository/ContractServiceBean.class
 org/aconex/contract/service/ContractService.class
 org/aconex/contract/web/api/IndexController.class
-org/aconex/contract/MessageAdvice.class

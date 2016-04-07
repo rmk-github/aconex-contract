@@ -35,11 +35,11 @@
                               <td>{{ c.contractId }}</td>
                               <td>{{ c.contractCode }}</td>
                               <td>{{ c.contractDescription }}</td>
-                              <td>{{ c.startDate }}</td>
+                              <td>{{ c.startDate | date:'fullDate' }}</td>
                               <td>{{ c.endDate }}</td>
                               <td>{{ c.vendor }}</td>
                               <td>{{ c.projectId }}</td>
-                              <td>{{ c.percentComplete }}</td>
+                              <td>{{ c.percentComplete | number:2 }}</td>
                               <td>{{ c.contractStatus }}</td>
                               <td>{{ c.budget | currency }}</td>
                               <td>{{ c.payment | currency }}</td>

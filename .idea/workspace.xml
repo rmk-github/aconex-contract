@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77b5a252-83dc-4537-b9f2-1993cc4f61e5" name="Default" comment="" />
+    <list default="true" id="77b5a252-83dc-4537-b9f2-1993cc4f61e5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/data/hsqldb/data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/data/hsqldb/schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/aconex/contract/MessageAdvice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/contract-mgmt-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/contract-mgmt-1.0.jar.original" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/aconex/contract/model/Contract.class" afterPath="$PROJECT_DIR$/target/classes/org/aconex/contract/model/Contract.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/aconex/contract/model/Contract.java" afterPath="$PROJECT_DIR$/src/main/java/org/aconex/contract/model/Contract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/data/hsqldb/data.sql" afterPath="$PROJECT_DIR$/src/main/resources/data/hsqldb/data.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/data/hsqldb/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/data/hsqldb/schema.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contracts.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contracts.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    </list>
     <ignored path="contract-mgmt.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,17 +38,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contract_service.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/service/contract_service.js">
+      <file leaf-file-name="contracts.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contracts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="518">
+              <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -49,10 +69,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/service/contract_service.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/controller/contract_controller.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/app.css" />
         <option value="$PROJECT_DIR$/src/main/resources/data/hsqldb/data.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/hsqldb/schema.sql" />
         <option value="$PROJECT_DIR$/src/main/java/org/aconex/contract/model/Contract.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contracts.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/app.css" />
       </list>
     </option>
   </component>
@@ -99,8 +120,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,6 +365,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contract-mgmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aconex-contract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contract-mgmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aconex-contract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contract" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -611,28 +684,28 @@
     <frame x="25" y="23" width="1287" height="795" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24941725" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -644,26 +717,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/service/contract_service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <marker date="1460008940000" expanded="true" signature="26:858" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="46:857" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="81:856" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="92:852" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="130:446" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="213:440" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="319:431" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="507:845" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="613:839" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="719:830" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <marker date="1460001675000" expanded="true" signature="89:2344" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="421:612" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="630:834" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="854:2100" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="875:1014" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="1078:1222" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="1243:1386" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="1408:1550" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="1571:1741" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="1762:1871" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="1892:2079" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="2113:2332" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="2131:2319" placeholder="..." />
-            <marker date="1460001675000" expanded="true" signature="2152:2300" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -671,15 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/hsqldb/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,78 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding>
-            <marker date="1460001584000" expanded="false" signature="45:627" placeholder="..." />
-            <marker date="1460001584000" expanded="true" signature="629:673" placeholder="/**...*/" />
-            <marker date="1460001584000" expanded="true" signature="675:725" placeholder="@{...}" />
-            <marker date="1460001584000" expanded="true" signature="891:1047" placeholder="@{...}" />
-            <marker date="1460001584000" expanded="true" signature="1108:1699" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/aconex/contract/model/Contract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="998">
-          <caret line="118" column="36" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="36" />
-          <folding>
-            <marker date="1460006386000" expanded="false" signature="43:115" placeholder="..." />
-            <marker date="1460006386000" expanded="true" signature="117:161" placeholder="/**...*/" />
-            <marker date="1460006386000" expanded="true" signature="200:223" placeholder="@{...}" />
-            <marker date="1460006386000" expanded="true" signature="731:738" placeholder="{...}" />
-            <marker date="1460006386000" expanded="false" signature="771:782" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="800:806" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="854:865" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="894:900" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="937:948" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="968:974" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1028:1039" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1072:1078" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1122:1133" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1160:1166" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1234:1245" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1292:1298" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1330:1341" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1358:1364" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1410:1421" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1448:1454" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1484:1495" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1510:1516" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1558:1569" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1592:1598" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1629:1640" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1654:1660" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1702:1713" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1734:1740" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1772:1783" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1800:1806" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1852:1863" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1890:1896" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="1936:1947" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="1970:1976" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="2036:2047" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="2086:2092" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="2131:2142" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="2156:2162" placeholder=" }" />
-            <marker date="1460006386000" expanded="false" signature="2212:2223" placeholder=" { " />
-            <marker date="1460006386000" expanded="false" signature="2244:2250" placeholder=" }" />
-            <marker date="1460006386000" expanded="true" signature="2286:2297" placeholder=" { " />
-            <marker date="1460006386000" expanded="true" signature="2312:2318" placeholder=" }" />
-            <marker date="1460006386000" expanded="true" signature="2366:2377" placeholder=" { " />
-            <marker date="1460006386000" expanded="true" signature="2400:2406" placeholder=" }" />
-            <marker date="1460006386000" expanded="true" signature="2443:2454" placeholder=" { " />
-            <marker date="1460006386000" expanded="true" signature="2470:2476" placeholder=" }" />
-            <marker date="1460006386000" expanded="true" signature="2526:2537" placeholder=" { " />
-            <marker date="1460006386000" expanded="true" signature="2562:2568" placeholder=" }" />
-            <marker date="1460006386000" expanded="true" signature="2606:2617" placeholder=" { " />
-            <marker date="1460006386000" expanded="true" signature="2634:2640" placeholder=" }" />
-            <marker date="1460006386000" expanded="true" signature="2692:2703" placeholder=" { " />
-            <marker date="1460006386000" expanded="true" signature="2730:2736" placeholder=" }" />
-            <marker date="1460006386000" expanded="true" signature="2771:2782" placeholder=" { " />
-            <marker date="1460006386000" expanded="true" signature="2796:2802" placeholder=" }" />
-            <marker date="1460006386000" expanded="true" signature="2848:2859" placeholder=" { " />
-            <marker date="1460006386000" expanded="true" signature="2880:2886" placeholder=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,20 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding>
-            <marker date="1460006726000" expanded="true" signature="19:74" placeholder="{...}" />
-            <marker date="1460006726000" expanded="true" signature="138:176" placeholder="{...}" />
-            <marker date="1460006726000" expanded="true" signature="219:266" placeholder="{...}" />
-            <marker date="1460006726000" expanded="true" signature="328:533" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contracts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,24 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <marker date="1460005825000" expanded="true" signature="29:3377" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="52:3376" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="116:3375" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="175:754" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="848:1367" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="979:1354" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="1016:1188" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="1456:1779" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="1534:1766" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="1817:2194" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="1963:2152" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="2245:2571" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="2359:2559" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="2420:2543" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="2618:3365" placeholder="{...}" />
-            <marker date="1460005825000" expanded="true" signature="2648:3295" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,6 +776,108 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <marker date="1460008940000" expanded="true" signature="26:858" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="46:857" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="81:856" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="92:852" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="130:446" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="213:440" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="319:431" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="507:845" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="613:839" placeholder="{...}" />
+            <marker date="1460008940000" expanded="true" signature="719:830" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/hsqldb/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="97" selection-start-line="1" selection-start-column="97" selection-end-line="1" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/hsqldb/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <marker date="1460043709000" expanded="true" signature="54:613" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/aconex/contract/model/Contract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="98" column="35" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
+          <folding>
+            <marker date="1460043777000" expanded="false" signature="43:115" placeholder="..." />
+            <marker date="1460043777000" expanded="true" signature="117:161" placeholder="/**...*/" />
+            <marker date="1460043777000" expanded="true" signature="200:223" placeholder="@{...}" />
+            <marker date="1460043777000" expanded="true" signature="733:740" placeholder="{...}" />
+            <marker date="1460043777000" expanded="false" signature="773:784" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="802:808" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="856:867" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="896:902" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="939:950" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="970:976" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1030:1041" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1074:1080" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1124:1135" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1162:1168" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1236:1247" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1294:1300" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1332:1343" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1360:1366" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1412:1423" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1450:1456" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1486:1497" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1512:1518" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1560:1571" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1594:1600" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1631:1642" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1656:1662" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1704:1715" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1736:1742" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1776:1787" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1804:1810" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1858:1869" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1896:1902" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="1942:1953" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="1976:1982" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="2042:2053" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="2092:2098" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="2137:2148" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="2162:2168" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="2218:2229" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="2250:2256" placeholder=" }" />
+            <marker date="1460043777000" expanded="true" signature="2292:2303" placeholder=" { " />
+            <marker date="1460043777000" expanded="true" signature="2318:2324" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="2372:2383" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="2406:2412" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="2449:2460" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="2476:2482" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="2532:2543" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="2568:2574" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="2612:2623" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="2640:2646" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="2698:2709" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="2736:2742" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="2777:2788" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="2802:2808" placeholder=" }" />
+            <marker date="1460043777000" expanded="false" signature="2854:2865" placeholder=" { " />
+            <marker date="1460043777000" expanded="false" signature="2886:2892" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contracts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
           <folding />
         </state>
       </provider>

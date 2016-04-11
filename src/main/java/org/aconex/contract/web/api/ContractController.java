@@ -61,7 +61,7 @@ class ContractController {
             produces = MediaType.APPLICATION_JSON_VALUE
     )
     public ResponseEntity<Contract> findContract(@PathVariable("contractId") Long contractId) {
-        logger.info("> getCompany");
+        logger.info("> getContract");
 
         Contract contract = null;
 
@@ -76,7 +76,7 @@ class ContractController {
             return new ResponseEntity<>(contract, HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
-        logger.info("< getCompany");
+        logger.info("< getContract");
         return new ResponseEntity<>(contract, HttpStatus.OK);
     }
 

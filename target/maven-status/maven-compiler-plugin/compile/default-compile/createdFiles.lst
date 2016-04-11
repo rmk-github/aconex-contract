@@ -1,0 +1,8 @@
+org/aconex/contract/Application.class
+org/aconex/contract/web/api/ContractController.class
+org/aconex/contract/service/ContractServiceBean.class
+org/aconex/contract/repository/ContractRepository.class
+org/aconex/contract/model/Contract.class
+org/aconex/contract/model/ContractStatus.class
+org/aconex/contract/service/ContractService.class
+org/aconex/contract/web/api/IndexController.class

@@ -14,6 +14,5 @@ CREATE TABLE CONTRACT (
     payment NUMERIC(19,2) DEFAULT 0.0,
     forecast NUMERIC(19,2) DEFAULT 0.0,
     committed NUMERIC(19,2) DEFAULT 0.0,
-    status VARCHAR(15),
     PRIMARY KEY (contractId)
-);
+)

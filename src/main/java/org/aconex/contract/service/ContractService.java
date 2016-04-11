@@ -13,4 +13,10 @@ public interface ContractService {
 
     List<Contract> findAll();
 
+    Contract findContract(Long id);
+
+    Contract updateContract(Contract contract);
+
+    void evictCache();
+
 }

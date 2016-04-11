@@ -29,6 +29,9 @@ public class Contract {
 
     private double percentComplete;
 
+    @Enumerated(EnumType.STRING)
+    private ContractStatus contractStatus;
+
     private BigDecimal payment;
 
     private BigDecimal forecast;
@@ -36,9 +39,6 @@ public class Contract {
     private BigDecimal committed;
 
     private BigDecimal budget;
-
-    @Enumerated(EnumType.STRING)
-    private ContractStatus status;
 
     // Default Constructor
     public Contract() {
@@ -108,12 +108,12 @@ public class Contract {
         this.percentComplete = percentComplete;
     }
 
-    public ContractStatus getStatus() {
-        return status;
+    public ContractStatus getContractStatus() {
+        return contractStatus;
     }
 
-    public void setStatus(ContractStatus status) {
-        this.status = status;
+    public void setContractStatus(ContractStatus contractStatus) {
+        this.contractStatus = contractStatus;
     }
 
     public BigDecimal getPayment() {
@@ -146,5 +146,24 @@ public class Contract {
 
     public void setBudget(BigDecimal budget) {
         this.budget = budget;
+    }
+
+    @Override
+    public String toString() {
+        return "Contract{" +
+                "budget=" + budget +
+                ", committed=" + committed +
+                ", forecast=" + forecast +
+                ", payment=" + payment +
+                ", contractStatus=" + contractStatus +
+                ", percentComplete=" + percentComplete +
+                ", projectId='" + projectId + '\'' +
+                ", vendor='" + vendor + '\'' +
+                ", endDate=" + endDate +
+                ", startDate=" + startDate +
+                ", contractDescription='" + contractDescription + '\'' +
+                ", contractCode='" + contractCode + '\'' +
+                ", contractId=" + contractId +
+                '}';
     }
 }

@@ -17,12 +17,12 @@ app.controller('ContractController', ['$scope', 'ContractService', function($sco
                           budget :'',
                           payment :'',
                           forecast :'',
-                          committed :'',
+                          committed :''
                          };
 
           $scope.contracts=[];
               
-          self.fetchAllContracts = function(){
+          $scope.fetchAllContracts = function(){
               console.log("calling fetchAllContracts");
               ContractService.fetchAllContracts()
                   .then(
@@ -37,39 +37,44 @@ app.controller('ContractController', ['$scope', 'ContractService', function($sco
       			    );
           };
 
-          self.fetchAllContracts();
+          $scope.fetchAllContracts();
 
-         self.updateContract = function(user, id){
-              ContractService.updateContract(user, id)
-		              .then(
-                          $scope.fetchAllContracts,
-                          function(errResponse){
-                               console.error('Error while updating User.');
-                          }
-                        );
+         $scope.updateContract = function(contract) {
+              console.log("Contract getting updated --> " + contract);
+              ContractService.updateContract(contract, contract.contractId)
+                  .then(
+                     function(d) {
+                          console.log("success");
+                          console.log(d);
+                          $scope.fetchAllContracts();
+                     },
+                      function(errResponse){
+                           console.error('Error while updating Contract');
+                      }
+                    );
           };
 
-          self.submit = function() {
-              if ( $scope.contract.contractId == null){
-                  console.log('No New Contract', $scope.contract);
-              } else {
-                  self.updateContract($scope.contract, $scope.contract.contractId);
-                  console.log('Contract updated with id ', $scope.contract.contractId);
-              }
-              $scope.reset();
-          };
-              
-          self.edit = function(id){
-              console.log('id to be edited', id);
-              for(var i = 0; i < $scope.contracts.length; i++){
-                  if($scope.contracts[i].contractId == id) {
-                     $scope.contract = angular.copy($scope.contracts[i]);
-                     break;
-                  }
-              }
+          $scope.editContract = function(contract) {
+            console.log('contract received ' + contract);
+
+            $scope.contract={
+                            contractId : contract.contractId,
+                            contractCode : contract.contractCode,
+                            contractDescription : contract.contractDescription,
+                            startDate : contract.startDate,
+                            endDate : contract.endDate,
+                            vendor : contract.vendor,
+                            projectId : contract.projectId,
+                            percentComplete : contract.percentComplete,
+                            contractStatus : contract.contractStatus,
+                            budget : contract.budget,
+                            payment : contract.payment,
+                            forecast : contract.forecast,
+                            committed : contract.committed
+                           };
           };
           
-          self.reset = function() {
+          $scope.reset = function() {
             $scope.contract={
                             contractId : null,
                             contractCode : '',
@@ -83,8 +88,7 @@ app.controller('ContractController', ['$scope', 'ContractService', function($sco
                             budget :'',
                             payment :'',
                             forecast :'',
-                            committed :'',
-                            status :'',
+                            committed :''
                            };
               $scope.myForm.$setPristine(); //reset Form
           };
